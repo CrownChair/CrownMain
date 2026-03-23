@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/OrionScriptLibrary/refs/heads/main/UI')))() -- UI For Libary
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CrownChair/CrownMain/refs/heads/main/Script%20Library%20Orion')))() -- UI For Libary
 local Window = OrionLib:MakeWindow({Name = "Crown's Script Libary", HidePremium = true, SaveConfig = false, ConfigFolder = "Crown Cheats", IntroEnabled = true, IntroText = "Crown Cheats (You Have Gained Access To Our Script Libary)", IntroIcon = "rbxassetid://119223925296024", Icon = "rbxassetid://119223925296024"})
 
 ---Window Tab Making---
