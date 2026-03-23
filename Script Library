@@ -49,9 +49,9 @@ Tab2:AddButton({
   	end    
 })
 Tab2:AddButton({
-	Name = "🏎️ Driving Empire 🏎️",
+	Name = "Game Name",
 	Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/crowncompany/DrivingEmpire/refs/heads/main/Script3"))()
+    loadstring(game:HttpGet("LINK"))()
       		print("Script Loaded")
   	end    
 })
