@@ -44,7 +44,7 @@ Tab2:AddButton({
 Tab2:AddButton({
 	Name = "☠️ Universal Aimbot ☠️",
 	Callback = function()
-     loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/UniversalLock/refs/heads/main/Script2')))()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/CrownChair/CrownMain/refs/heads/main/Universal%20Aim')))()
       		print("Script Loaded")
   	end    
 })
