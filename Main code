@@ -25,7 +25,7 @@ if pcall(function() readfile(keyFile) end) then
         })
         OrionLib:Destroy()
         wait(2)
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/ScriptLibrary/refs/heads/main/Crown')))() -- Place Your Script Here
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/CrownChair/CrownMain/refs/heads/main/Script%20Library')))() -- Place Your Script Here
         return
     end
 end
