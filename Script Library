@@ -58,7 +58,7 @@ Tab2:AddButton({
 Tab2:AddButton({
 	Name = "♾️  Infinite Yield  ♾️",
 	Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/CrownChair/CrownMain/refs/heads/main/Infinite%20Yield'))()
       		print("Script Loaded")
   	end    
 })
