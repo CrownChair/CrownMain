@@ -37,7 +37,7 @@ OrionLib:MakeNotification({
 Tab2:AddButton({
 	Name = "👻 Universal ESP 👻",
 	Callback = function()
-     loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/UniversalBone/refs/heads/main/Script1')))()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/CrownChair/CrownMain/refs/heads/main/Universal%20ESP')))()
       		print("Script Loaded")
   	end    
 })
