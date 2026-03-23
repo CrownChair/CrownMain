@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/OrionKeySystem/refs/heads/main/UI')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CrownChair/CrownMain/refs/heads/main/LibraryOrion')))()
 
 local Window = OrionLib:MakeWindow({Name = "Key System by Crown Cheats (DEV / ashy1828)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
