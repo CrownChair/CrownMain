@@ -1,0 +1,71 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/OrionScriptLibrary/refs/heads/main/UI')))() -- UI For Libary
+local Window = OrionLib:MakeWindow({Name = "Crown's Script Libary", HidePremium = true, SaveConfig = false, ConfigFolder = "Crown Cheats", IntroEnabled = true, IntroText = "Crown Cheats (You Have Gained Access To Our Script Libary)", IntroIcon = "rbxassetid://119223925296024", Icon = "rbxassetid://119223925296024"})
+
+---Window Tab Making---
+
+local Tab1 = Window:MakeTab({
+	Name = "🌐 Info 🌐",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab2 = Window:MakeTab({
+	Name = "🖨️ Script's 🖨️",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+---Section Making For Tabs---
+
+local Section = Tab2:AddSection({
+	Name = "All Avalible Scripts Here"
+})
+local Section = Tab1:AddSection({
+	Name = "About 👑Crown Cheats👑"
+})
+
+---Notification System---
+
+OrionLib:MakeNotification({
+	Name = "👑 Crown Cheats 👑",
+	Content = "Script Libary",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+---Button And Toggle Adding---
+
+Tab2:AddButton({
+	Name = "👻 Universal ESP 👻",
+	Callback = function()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/UniversalBone/refs/heads/main/Script1')))()
+      		print("Script Loaded")
+  	end    
+})
+Tab2:AddButton({
+	Name = "☠️ Universal Aimbot ☠️",
+	Callback = function()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/crowncompany/UniversalLock/refs/heads/main/Script2')))()
+      		print("Script Loaded")
+  	end    
+})
+Tab2:AddButton({
+	Name = "🏎️ Driving Empire 🏎️",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/crowncompany/DrivingEmpire/refs/heads/main/Script3"))()
+      		print("Script Loaded")
+  	end    
+})
+Tab2:AddButton({
+	Name = "♾️  Infinite Yield  ♾️",
+	Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+      		print("Script Loaded")
+  	end    
+})
+---Info Text---
+
+Tab1:AddLabel("Creator of scripts : ashy1828 / monstraa")
+Tab1:AddLabel("Created : 04/20/25")
+Tab1:AddLabel("OwnerShip : 👑Crown Cheats👑")
+Tab1:AddLabel("UI : Orion")
+Tab1:AddLabel("Update : v1.0.6")
